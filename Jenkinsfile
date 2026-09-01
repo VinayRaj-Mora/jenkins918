@@ -14,6 +14,7 @@ pipeline {
                     sh """
                         echo "Building"
                         echo $NAME
+                        env
                     """
                 }
                 
@@ -24,6 +25,7 @@ pipeline {
                 script{
                     sh """
                         echo "Testing"
+                        echo $NAME
                     """
                 }
             }
@@ -33,8 +35,10 @@ pipeline {
                 script{
                     sh """
                         echo "Deploying"
+                        echo $NAME
                     """
                 }
+
             }
         }
     }
