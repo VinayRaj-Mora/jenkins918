@@ -1,0 +1,68 @@
+SHELL=/bin/bash
+RUN_TESTS_DISPLAY_URL=http://3.95.174.149:8080/job/Test/11/display/redirect?page=tests
+HISTSIZE=10000
+JENKINS_SERVER_COOKIE=durable-049ad1bb08729e7067090cdd5d065b5ab75261325df1c8df39f77614b20316e1
+GIT_PREVIOUS_SUCCESSFUL_COMMIT=cf2c7df8b8ff4c4a6f7cd6197eb63cbceb1ee7e0
+HISTTIMEFORMAT=%d/%m/%y %T 
+AWS_DEFAULT_REGION=us-east-1
+RUN_CHANGES_DISPLAY_URL=http://3.95.174.149:8080/job/Test/11/display/redirect?page=changes
+NAME=Jenkins
+HUDSON_HOME=/var/lib/jenkins
+PWD=/home/ec2-user/jenkins918/workspace/Test
+LOGNAME=ec2-user
+XDG_SESSION_TYPE=tty
+BUILD_URL=http://3.95.174.149:8080/job/Test/11/
+ANSIBLE_DEPRECATION_WARNINGS=False
+JOB_URL=http://3.95.174.149:8080/job/Test/
+BUILD_NUMBER=11
+MOTD_SHOWN=pam
+JENKINS_NODE_COOKIE=dc548e7e-baf7-4b7e-912a-5c9785dab40c
+BUILD_DISPLAY_NAME=#11
+HOME=/home/ec2-user
+LANG=C.UTF-8
+ANSIBLE_FORCE_COLOR=1
+JENKINS_URL=http://3.95.174.149:8080/
+JOB_BASE_NAME=Test
+PROMPT_COMMAND=$(history -w)
+JOB_NAME=Test
+RUN_DISPLAY_URL=http://3.95.174.149:8080/job/Test/11/display/redirect
+SSH_CONNECTION=172.31.30.13 34800 172.31.26.175 22
+JOB_DISPLAY_URL=http://3.95.174.149:8080/job/Test/display/redirect
+WORKSPACE=/home/ec2-user/jenkins918/workspace/Test
+GIT_PREVIOUS_COMMIT=cf2c7df8b8ff4c4a6f7cd6197eb63cbceb1ee7e0
+HUDSON_URL=http://3.95.174.149:8080/
+XDG_SESSION_CLASS=user
+NODE_NAME=AGENT-1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+USER=ec2-user
+HUDSON_SERVER_COOKIE=dbced23e63ed1809
+GIT_URL=https://github.com/VinayRaj-Mora/jenkins918.git
+SHLVL=2
+BUILD_TAG=jenkins-Test-11
+EXECUTOR_NUMBER=0
+HUDSON_COOKIE=de196b71-6a3e-4d33-b7d5-eaf83a675e6a
+SYSTEMD_PAGER=cat
+XDG_SESSION_ID=3
+JENKINS_HOME=/var/lib/jenkins
+XDG_RUNTIME_DIR=/run/user/1001
+SSH_CLIENT=172.31.30.13 34800 22
+REQUESTS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
+GIT_COMMIT=cf2c7df8b8ff4c4a6f7cd6197eb63cbceb1ee7e0
+which_declare=declare -f
+NODE_LABELS=AGENT-1 ssh-auth
+STAGE_NAME=Build
+AWS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+WORKSPACE_TMP=/home/ec2-user/jenkins918/workspace/Test@tmp
+XDG_DATA_DIRS=/home/ec2-user/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+RUN_ARTIFACTS_DISPLAY_URL=http://3.95.174.149:8080/job/Test/11/display/redirect?page=artifacts
+CI=true
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+GIT_BRANCH=origin/main
+BUILD_ID=11
+OLDPWD=/home/ec2-user
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+_=/usr/bin/env

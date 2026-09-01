@@ -7,6 +7,9 @@ pipeline {
     environment{
         NAME = "Jenkins"
     }
+    options{
+        timeout(time: 10, unit:'SECONDS')
+    }
     stages {
         stage('Build') {
             steps {
@@ -52,6 +55,9 @@ pipeline {
         }
         failure{
             echo "This will run only is failed"
+        }
+        aborted{
+            echo "This will run only if aborted"
         }
     }
 }
