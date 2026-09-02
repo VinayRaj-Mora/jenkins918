@@ -8,7 +8,8 @@ pipeline {
         NAME = "Jenkins"
     }
     options{
-        timeout(time: 10, unit:'SECONDS')
+        timeout(time: 10, unit:'MINUTES')
+        disableConcurrentVuilds()
     }
     stages {
         stage('Build') {
@@ -17,7 +18,7 @@ pipeline {
                     sh """
                         echo "Building"
                         echo $NAME
-                        sleep 10
+                        #sleep 10
                         env
                     """
                 }
