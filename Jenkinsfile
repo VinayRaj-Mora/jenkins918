@@ -26,7 +26,7 @@ pipeline {
                     sh """
                         echo "Building"
                         echo $NAME
-                        sleep 10
+                        #sleep 10
                         env
                         echo "Hello ${params.PERSON}"
                         echo "Biography: ${params.BIOGRAPHY}"
