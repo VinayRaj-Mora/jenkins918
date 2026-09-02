@@ -30,7 +30,7 @@ pipeline {
                         env
                         echo "Hello ${params.PERSON}"
                         echo "Biography: ${params.BIOGRAPHY}"
-                        echo "Toggle: ${params.TOGGLE}"
+                        echo "Toggle: ${params.DEPLOY}"
                         echo "Choice: ${params.CHOICE}"
                         echo "Password: ${params.PASSWORD}"
                     """
@@ -57,7 +57,7 @@ pipeline {
             //         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
             //     }
             // }
-            expression { "$params.DEPLOY" ==~ /(production|staging)/ }
+            expression { "$params.DEPLOY" }
             steps {
                 script{
                     sh """
